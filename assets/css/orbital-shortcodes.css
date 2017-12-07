@@ -1,0 +1,731 @@
+/* ================= BUTTONS ================== */
+.buttons {
+    padding:0px 0px 20px 20px;
+}
+
+.button {
+    margin-top:15px;
+    display: inline-block;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-family: 'Unica One', cursive;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+a.button,
+a.btn-round {
+    padding: 0px 15px;
+}
+
+
+/* ================= ROUNDED BUTTON ================== */
+.btn-round {
+    margin-top:20px;
+    display: inline-block;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+
+/* ================= SIMPLE BUTTON ================== */
+.btn-simple {
+    margin-top:20px;
+    display: inline-block;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+a.btn-simple {
+    padding: 0px 15px;
+}
+
+
+/* ================= CIRCLE BUTTON ================== */
+.btn-circle {
+    margin-top:20px;
+    margin-right:-2px;
+    display: inline-block;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+a.btn-circle {
+    padding: 2px 10px;
+}
+
+
+/* ================= SQUARE BUTTON ================== */
+.btn-square {
+    margin-top:20px;
+    margin-right: -2px;
+    display: inline-block;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+a.btn-square {
+    padding: 2px 10px;
+}
+
+
+/* ================= RED BUTTON COLOR ================== */
+a.color_1 {
+    background-color:#f44d37;
+}
+
+a.color_1:hover {
+    background-color:#ff7361;
+}
+
+a.color_1:active {
+    background-color:#e84833;
+    box-shadow:  1px 1px 0px 0px #cf402d inset;
+}
+
+
+/* ================= GREEN BUTTON COLOR ================== */
+
+a.color_2 {
+    background-color:#4cc987;
+}
+
+a.color_2:hover {
+    background-color:#72d6a1;
+}
+
+a.color_2:active {
+    background-color:#3ebd79;
+    box-shadow:  1px 1px 0px 0px #3fa66f inset;
+}
+
+
+/* ================= VIOLENT BUTTON COLOR ================== */
+
+a.color_3 {
+    background-color:#9c73df;
+}
+
+a.color_3:hover {
+    background-color:#bb9deb;
+}
+
+a.color_3:active {
+    background-color:#8d62d1;
+    box-shadow:  1px 1px 0px 0px #7c56b8 inset;
+}
+
+
+/* ================= PINK BUTTON COLOR ================== */
+
+a.color_4 {
+    background-color:#f4596b;
+}
+
+a.color_4:hover {
+    background-color:#ff8291;
+}
+
+a.color_4:active {
+    background-color:#df4756;
+    box-shadow:  1px 1px 0px 0px #b73947 inset;
+}
+
+
+/* ================= LIGHT GREEN BUTTON COLOR ================== */
+
+a.color_5 {
+    background-color:#a0d468;
+}
+
+a.color_5:hover {
+    background-color:#b9e090;
+}
+
+a.color_5:active {
+    background-color:#92c65a;
+    box-shadow:  1px 1px 0px 0px #769e45 inset;
+}
+
+
+/* ================= LIGHT VIOLENT BUTTON COLOR ================== */
+
+a.color_6 {
+    background-color:#cb70d7;
+}
+
+a.color_6:hover {
+    background-color:#da98e3;
+}
+
+a.color_6:active {
+    background-color:#bd5fc9;
+    box-shadow:  1px 1px 0px 0px #a553b0 inset;
+}
+
+/* ================= ORANGE BUTTON COLOR ================== */
+
+a.color_7 {
+    background-color:#f48737;
+}
+
+a.color_7:hover {
+    background-color:#ff9142;
+}
+
+a.color_7:active {
+    background-color:#e8792a;
+    box-shadow:  1px 1px 0px 0px #cf6c25 inset;
+}
+
+
+/* ================= BLUE BUTTON COLOR ================== */
+
+a.color_8 {
+    background-color:#42a2f4;
+}
+
+a.color_8:hover {
+    background-color:#6bbaff;
+}
+
+a.color_8:active {
+    background-color:#3394e8;
+    box-shadow:  1px 1px 0px 0px #2d83cf inset;
+}
+
+
+/* ================= GREY BUTTON COLOR ================== */
+
+a.color_9 {
+    background-color:#434a54;
+}
+
+a.color_9:hover {
+    background-color:#5c5e61;
+}
+
+a.color_9:active {
+    background-color:#363d47;
+    box-shadow:  1px 1px 0px 0px #2f333c inset;
+}
+
+
+/* ================= YELLOW BUTTON COLOR ================== */
+
+a.color_10 {
+    background-color:#f1c40f;
+}
+
+a.color_10:hover {
+    background-color:#ffd736;
+}
+
+a.color_10:active {
+    background-color:#e5b802;
+    box-shadow:  1px 1px 0px 0px #cca402 inset;
+}
+
+
+/* ================= LIGHT BLUE BUTTON COLOR ================== */
+
+a.color_11 {
+    background-color:#4fc0ea;
+}
+
+a.color_11:hover {
+    background-color:#79d6f7;
+}
+
+a.color_11:active {
+    background-color:#41b2dc;
+    box-shadow:  1px 1px 0px 0px #2f90b0 inset;
+}
+
+/* ================= LIGHT GREY BUTTON COLOR ================== */
+
+a.color_12 {
+    background-color:#a7abb4;
+}
+
+a.color_12:hover {
+    background-color:#b6bec9;
+}
+
+a.color_12:active {
+    background-color:#9da4ac;
+    box-shadow:  1px 1px 0px 0px #7f838c inset;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background: #dfdfdf;
+    clear: both;
+}
+.linealt {
+    width: 100%;
+    height: 1px;
+    background: #f3f3f3;
+    clear: both;
+    margin: 20px 0 40px 0;
+}
+/*DROP CAPS*/
+.drop-cap {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    float: left;
+    font-size: 34px;
+    line-height: 34px;
+    padding: 3px 5px 0 0;
+}
+
+.short-box {
+    margin-bottom: 20px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 3px #cecece;
+    -webkit-box-shadow: 0 0 3px #cecece;
+    box-shadow: 0 0 2px #cecece;
+}
+
+.short-box p {
+    padding: 0;
+}
+
+.download-box {
+    color: #fff;
+    background-color: #A0D468;
+}
+
+.downloadboxinner {
+    padding: 20px 20px 25px 75px;
+    background: url('../images/box.png') 20px 15px no-repeat;
+}
+
+.warning-box {
+    color: #c31b00;
+    background: #ffcccc url('../images/red-grad.png') 0 0 repeat-x;
+    border: 1px solid #ff9999;
+}
+
+.warningboxinner {
+    padding: 20px 20px 25px 75px;
+    background: url('../images/warning.png') 20px 15px no-repeat;
+}
+
+.info-box {
+    color: #2e6093;
+    background: #FFC url('../images/blue-grad.png') 0 0 repeat-x;
+    border: 1px solid #CFF1FF;
+}
+
+.infoboxinner {
+    padding: 20px 20px 25px 75px;
+    background: url('../images/info-box.png') 20px 15px no-repeat;
+}
+
+.note-box {
+    color: #9e660d;
+    background: #FFC url('../images/yellow-grad.png') 0 0 repeat-x;
+    border: 1px solid #e6c555;
+}
+
+.noteboxinner {
+    padding: 20px 20px 25px 75px;
+    background: url('../images/note.png') 20px 15px no-repeat;
+}
+
+/*HIGHLIGHTS*/
+.highlight { margin: 0 1px; display: inline-block; }
+
+.highlight.highlight-blue {
+    background: #1bb5d9;
+    color: #000000;
+    padding: 1px 4px;
+}
+
+.highlight.highlight-orange {
+    background: #fcae02;
+    color: #000000;
+    padding: 1px 4px;
+}
+
+.highlight.highlight-green {
+    background: #b4d929;
+    color: #000000;
+    padding: 1px 4px;
+}
+
+.highlight.highlight-purple {
+    background: #b54beb;
+    color: #ffffff;
+    padding: 1px 4px;
+}
+
+.highlight.highlight-pink {
+    background: #f638a5;
+    color: #ffffff;
+    padding: 1px 4px;
+}
+
+.highlight.highlight-red {
+    background: #f21010;
+    color: #ffffff;
+    padding: 1px 4px;
+}
+
+.highlight.highlight-grey {
+    background: #868686;
+    color: #ffffff;
+    padding: 1px 4px;
+}
+
+.highlight.highlight-light {
+    background: #e9e9e9;
+    color: #000000;
+    padding: 1px 4px;
+}
+
+.highlight.highlight-black {
+    background: #000000;
+    color: #ffffff;
+    padding: 1px 4px;
+}
+
+.highlight.highlight-yellow {
+    background: #f8ea46;
+    color: #000000;
+    padding: 1px 4px;
+}
+
+/* TOOLTIPS */
+.tip {
+    color: #fff;
+    background:#1d1d1d;
+    display:none; /*--Hides by default--*/
+    padding:10px;
+    position:absolute;
+    z-index:1000;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.tip_trigger { color: #e12d1c; }
+
+
+/*Protected Content*/
+#digi-protected {
+    width: 315px;
+    margin: 20px 10px;
+}
+
+#digi-protected .digi-protected-form {
+    background: url("../images/protected/password-protected-bg.png") no-repeat;
+    height: 144px;
+    margin-bottom: 10px;
+    padding: 26px 33px 0px 30px;
+    font-family: Arial, sans-serif;
+}
+
+#digi-protected .digi-protected-form p {
+    padding-bottom: 16px;
+    margin-bottom: 0px;
+}
+
+#digi-protected .digi-protected-form p input {
+    background: url("../images/protected/protected-input-bg.png") repeat-x;
+    border: 1px solid #dadada;
+    margin: 0px 0px 0px 14px;
+    padding: 5px;
+    width:150px;
+}
+
+#digi-protected .digi-protected-form p input[type="password"] {
+    margin-left: 16px;
+}
+
+#digi-protected .digi-protected-form p input:focus {
+    border-color:#2D3940;
+    color:#3E3E3E;
+}
+
+#digi-protected .digi-protected-form input#sklogin-button {
+    background: url("../images/protected/protected-login-bg.png") no-repeat;
+    border: none;
+    cursor: pointer;
+    width: 59px;
+    height: 24px;
+    float: right;
+    color: #ffffff;
+    font-size: 11px;
+    text-shadow: 1px 1px 1px #2C2C2C;
+    line-height: 11px;
+}
+
+#digi-protected .digi-protected-form label {
+    color: #757575;
+    font-size: 14px;
+}
+
+#digi-protected p.digi-registration {
+    text-align: right;
+    font: 12px;
+    color: #757575;
+    padding: 0;
+    margin-bottom: 3px;
+}
+
+#digi-protected p.digi-registration a {
+    color: #424242;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*Columns*/
+
+.one-half, .one-third, .two-thirds,
+.one-fourth, .three-fourths {
+    float:left;
+    margin-right:4%;
+    position:relative;
+}
+.one-half {
+    width: 48%;
+}
+.one-third {
+    width: 30.66%;
+}
+.two-thirds {
+    width:65.32%;
+}
+.one-fourth {
+    width:22%;
+}
+.three-fourths {
+    width:74%;
+}
+.last {
+    margin-right: 0;
+}
+
+/* Framed Boxes */
+.framed-box {
+    margin-bottom: 20px;
+}
+
+.framed-box-content {
+    background: #f3f3f3;
+    padding: 20px;
+}
+
+.fbox-title {
+    color: #ffffff;
+    padding: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.fbox-title h3 {
+    color: #ffffff;
+}
+
+.fbox-title h5 {
+    color: #e3e3e3;
+    font-style: italic;
+}
+
+.fbox-title.fire {
+    background: #994016 url("../images/meta-bg.png") repeat-x;
+}
+
+.fbox-title.blue {
+    background: #1260a1 url("../images/meta-bg.png") repeat-x;
+}
+
+.fbox-title.black {
+    background: #353535 url("../images/meta-bg.png") repeat-x;
+}
+
+.fbox-title.gray {
+    background: #7a7a7a url("../images/meta-bg.png") repeat-x;
+}
+
+.fbox-title.green {
+    background: #385a11 url("../images/meta-bg.png") repeat-x;
+}
+
+.fbox-title.coffee {
+    background: #3f3730 url("../images/meta-bg.png") repeat-x;
+}
+
+.fbox-title.orange {
+    background: #ff6f1e url("../images/meta-bg.png") repeat-x;
+}
+
+/**********  ACTION  **********/
+#actionS.blue {
+    background: url("../images/blue-grad.png") repeat-x scroll 0 0 #F3F3F3;
+    border: 1px solid #CFF1FF;
+}
+
+#actionS.red {
+    background: #ffcccc url('../images/red-grad.png') 0 0 repeat-x;
+    border: 1px solid #ffb7b7;
+}
+
+#actionS.green {
+    background: #dcf9b9 url('../images/green-grad.png') 0 0 repeat-x;
+    border: 1px solid #acdd70;
+}
+
+#actionS.yellow {
+    background: #FFC url('../images/yellow-grad.png') 0 0 repeat-x;
+    border: 1px solid #e6c555;
+}
+/**********  TABS  **********/
+.post .entry .tabs li {
+    padding-bottom: 0;
+    line-height: 31px;
+}
+
+ul.tabs {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+    width: 100%;
+}
+ul.tabs li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    margin-bottom: -1px; /*--Pull the list item down 1px--*/
+    overflow: hidden;
+    position: relative;
+}
+ul.tabs li a {
+    text-decoration: none;
+    color: #333333;
+    display: block;
+    font-weight: 100;
+    padding: 5px 20px;
+}
+ul.tabs li a:hover {
+    background-color: #f7f7f7;
+}
+html ul.tabs li a.selected, html ul.tabs li a.selected a:hover  { /*--Makes sure that the active tab does not listen to the hover properties--*/
+    background-color: #F7F7F7;
+}
+
+ul.tabs li a,
+ul.accordion li a.toggle {
+    font-family: 'Unica One', cursive;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+.tabs-wrapper .tab-content,
+ul.accordion li {
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.tab-container {
+    border-top: none;
+    overflow: hidden;
+    clear: both;
+    float: left; width: 100%;
+    background: #fff;
+}
+.tabs-wrapper .tab-content {
+    background-color: #f7f7f7;
+    color: #52585B;
+    clear: both;
+    padding: 20px;
+}
+
+.tab-content h2 {
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #262626;
+}
+.tab-content img {
+    float: left;
+    margin: 0 20px 20px 0;
+    border: 1px solid #262626;
+    padding: 5px;
+}
+
+/* Slide Toggle */
+ul.accordion {
+    list-style: none;
+    padding: 0;
+}
+ul.accordion .inner {
+    padding-left: 1em;
+    overflow: hidden;
+    display: none;
+}
+ul.accordion .inner.show {
+    /*display: block;*/
+}
+ul.accordion li {
+    margin: 10px 0;
+}
+ul.accordion > li > ul.accordion-content {
+    padding-left: 10px;
+}
+ul.accordion > li > ul.accordion-content > li {
+    list-style-type: none;
+}
+ul.accordion li a.toggle {
+    width: 100%;
+    display: block;
+    background-color: #f7f7f7;
+    padding: .75em;
+    border-radius: 0.15em;
+    transition: background .3s ease;
+}
+/*ul.accordion li a.toggle:hover {*/
+/*background: rgba(0, 0, 0, 0.9);*/
+/*}*/
+
+
+.slide_toggle_content,
+.slide_toggle_compact_content {
+    background: #F7F7F7;
+    margin: 0 0 20px 0;
+    padding: 10px 20px;
+    clear: both;
+    overflow: hidden;
+    border-radius: 5px;
+}
