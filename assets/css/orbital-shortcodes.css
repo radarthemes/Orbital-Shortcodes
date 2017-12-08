@@ -729,3 +729,10 @@ ul.accordion li a.toggle {
     overflow: hidden;
     border-radius: 5px;
 }
+
+.hljs {
+    padding: 25px 50px !important;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}

@@ -52,7 +52,8 @@ class RadarThemesShortcodes
 	public function enqueue_style()
 	{
 		wp_enqueue_style( 'orbitial-shortcodes', plugins_url( '/assets/css/orbital-shortcodes.css', __FILE__), false );
-		wp_enqueue_style( 'orbital-shortcodes-hljs-style-1', plugins_url( '/assets/css/hljs/atom-one-dark.css', __FILE__), false );
+		wp_enqueue_style( 'orbital-shortcodes-hljs-dark', plugins_url( '/assets/css/hljs/atom-one-dark.css', __FILE__), false );
+//		wp_enqueue_style( 'orbital-shortcodes-hljs-light', plugins_url( '/assets/css/hljs/github.css', __FILE__), false );
 	}
 
 	/**
