@@ -49,9 +49,9 @@ Choose between blue, orange, green, purple, pink, red, grey, light, black, yello
 
 ### Code Syntax Highlighting
 
-Coming soon....
-
-### Buttons
+    [code language="ruby"]
+        code goes here....
+    [/code]
 
 Normal buttons, colors are blue, black ,purple, green, red, gray, fire ,orange and coffee.
 
