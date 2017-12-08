@@ -14,15 +14,16 @@ defined( 'ABSPATH' ) or die( 'Signal Error! Please try again.' );
 class RadarThemesShortcodes
 {
 
-	private $plugin_version = '1.0.0'; // current plugin version
+	private static $_instance = null; // Only single instance of plugin
 
+	private $plugin_version = '1.0.0'; // Current plugin version
 
 	public function __construct()
 	{
 
 		add_shortcode('button', array($this,'trooper_button'));
 
-		add_filter('widget_text', array($this,'do_shortcode')); // Allow shortcodes in widgets
+		add_filter('widget_text', 'do_shortcode'); // Allow shortcodes in widgets
 		add_shortcode('highlight', array($this,'highlight_shortcode')); // Text Highlighting
 
 		add_shortcode('tab', array($this,'tab_func'));
@@ -30,6 +31,8 @@ class RadarThemesShortcodes
 
 		add_shortcode('accordion', array($this,'accordion_func'));
 		add_shortcode('accordions', array($this,'accordions_func'));
+
+		add_shortcode( 'code', array($this,'code_syntax_highlight'));
 
 		add_action( 'wp_enqueue_scripts', array($this,'enqueue_style'));
 		add_action( 'wp_enqueue_scripts', array($this,'enqueue_script'));
@@ -267,8 +270,43 @@ class RadarThemesShortcodes
 		return $accordions_output;
 	}
 
+	/**
+	 * @param $atts
+	 * @param null $content
+	 *
+	 * @return string
+	 */
+	public function code_syntax_highlight( $atts, $content = null)
+	{
+		extract(
+			shortcode_atts(
+				array(
+					'language' => '',
+					'theme' => '',
+				), $atts));
+
+		$syntax_output = '<pre>';
+		$syntax_output .= '<code class="hljs '. $atts['language'] .'">';
+		$syntax_output .= strip_tags(wp_specialchars_decode($content));
+		$syntax_output .= '</code>';
+		$syntax_output .= '</pre>';
+
+		return $syntax_output;
+	}
+
+	/**
+	 * Only single instance
+	 */
+	public static function instance()
+	{
+		if(is_null(self::$_instance))
+		{
+			self::$_instance = new self();
+		}
+	}
+
 }
 
-$radarthemes_Shortcodes = new RadarThemesShortcodes();
+RadarThemesShortcodes::instance();
 
 ?>

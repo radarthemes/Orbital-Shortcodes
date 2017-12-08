@@ -736,3 +736,7 @@ ul.accordion li a.toggle {
     -moz-border-radius:3px;
     border-radius:3px;
 }
+
+pre {
+    padding: 0 !important;
+}
