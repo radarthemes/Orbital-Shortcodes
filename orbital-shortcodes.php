@@ -11,6 +11,10 @@
 
 defined( 'ABSPATH' ) or die( 'Signal Error! Please try again.' );
 
+// Lower priority of auto paragraph insertion.
+remove_filter( 'the_content', 'wpautop' );
+add_filter( 'the_content', 'wpautop' , 12);
+
 class RadarThemesShortcodes
 {
 
@@ -287,7 +291,7 @@ class RadarThemesShortcodes
 
 		$syntax_output = '<pre>';
 		$syntax_output .= '<code class="hljs '. $atts['language'] .'">';
-		$syntax_output .= strip_tags(wp_specialchars_decode($content));
+		$syntax_output .= strip_tags(wp_specialchars_decode(preg_replace('/^\s*[\r\n]+/', '', $content)));
 		$syntax_output .= '</code>';
 		$syntax_output .= '</pre>';
 
