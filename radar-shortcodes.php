@@ -6,7 +6,7 @@
  * @since             1.0.0
  * @package           Radar Shortcodes
  *
- * @wordpress-plugin
+ * @radar-shortcodes
  * Plugin Name:       Radar Shortcodes
  * Plugin URI:        https://radarthemes.com/wordpress-plugins/radar-shortcodes/
  * Description:       A lightweight shortcodes plugin for WordPress.
