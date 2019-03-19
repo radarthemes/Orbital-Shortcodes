@@ -1,10 +1,10 @@
-# Orbital Shortcodes
+# Radar Shortcodes
 
-Orbital Shortcodes is a lightweight shortcode plugin for WordPress. This plugin currently offers shortcodes such as tabs, accordion, text highlighting, code syntax highlighting and buttons.
+Radar Shortcodes is a lightweight shortcode plugin for WordPress. This plugin currently offers shortcodes such as tabs, accordion, text highlighting, code syntax highlighting and buttons.
 
 ## Getting Started
 
-Once activated, Orbital Shortcodes integrates seamlessly into your WordPress website upon installation. There are currently no admin pages or custom WYSIWYG buttons for this plugin.....yet.
+Once activated, Radar Shortcodes integrates seamlessly into your WordPress website upon installation. There are currently no admin pages or custom WYSIWYG buttons for this plugin.....yet.
 
 ## Shortcodes
 
@@ -57,9 +57,13 @@ Normal buttons, colors are blue, black ,purple, green, red, gray, fire ,orange a
 
     [button link="#" style="1" type="round" fa="twitter"] Follow Me[/button]
 
+## Credits
+
+This plugin was created by [Radar Themes](https://radarthemes.com/)
+
 ## Contributing
 
-Feel free to [open a GitHub issue](https://github.com/mpurham/Orbital-Shortcodes/issues) for new feature requests or bugs. 
+Feel free to [open a GitHub issue](https://github.com/mpurham/Radar-Shortcodes/issues) for new feature requests or bugs. 
 
 ## License
 
