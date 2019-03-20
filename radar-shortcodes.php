@@ -60,8 +60,8 @@ class RadarShortcodes {
     */
     public function enqueue_style()
     {
-        wp_enqueue_style( 'orbitial-shortcodes', plugins_url( '/assets/css/orbital-shortcodes.css', __FILE__), false );
-        wp_enqueue_style( 'orbital-shortcodes-hljs-dark', plugins_url( '/assets/css/hljs/atom-one-dark.css', __FILE__), false );
+        wp_enqueue_style( 'radar-shortcodes', plugins_url( '/assets/css/radar-shortcodes.css', __FILE__), false );
+        wp_enqueue_style( 'radar-shortcodes-hljs-dark', plugins_url( '/assets/css/hljs/atom-one-dark.css', __FILE__), false );
     }
 
     /**
@@ -69,8 +69,8 @@ class RadarShortcodes {
     */
     public function enqueue_script()
     {
-        wp_enqueue_script( 'orbitial-shortcodes', plugins_url('/assets/js/orbital-shortcodes.js',__FILE__), false, $this->plugin_version,true );
-        wp_enqueue_script( 'orbital-shortcodes-plugins', plugins_url('/assets/js/orbital-shortcodes-plugins.js',__FILE__), false, $this->plugin_version,true );
+        wp_enqueue_script( 'radar-shortcodes', plugins_url('/assets/js/radar-shortcodes.js',__FILE__), false, $this->plugin_version,true );
+        wp_enqueue_script( 'radar-shortcodes-plugins', plugins_url('/assets/js/radar-shortcodes-plugins.js',__FILE__), false, $this->plugin_version,true );
     }
 
     /**
@@ -80,9 +80,9 @@ class RadarShortcodes {
     */
     public function print_script()
     {
-        wp_enqueue_script('orbitial-shortcodes');
+        wp_enqueue_script('radar-shortcodes');
         // Output accordions settings JavaScript variable
-        wp_localize_script('orbitial-shortcodes', 'radarShortcodesSettings', $this->script_data);
+        wp_localize_script('radar-shortcodes', 'radarShortcodesSettings', $this->script_data);
     }
 
 
