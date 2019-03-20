@@ -4,8 +4,6 @@ jQuery(window).on("load resize scroll",function(e){
 
 (function($) {
 
-    console.log("works for plugin...");
-
     // SHORTCODE TOGGLE
     $('.tabs a').click(function(){
         switch_tabs($(this));
