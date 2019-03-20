@@ -688,6 +688,7 @@ ul.accordion .inner.show {
     /*display: block;*/
 }
 ul.accordion li {
+    list-style: none;
     margin: 10px 0;
 }
 ul.accordion > li > ul.accordion-content {
